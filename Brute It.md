@@ -129,7 +129,9 @@ Tools: https://gtfobins.github.io/gtfobins/cat/
 Elevate privileges View root password
  
  LFILE=/etc/shadow
+
 cat "$LFILE"
+
 Use john to crack the hash password
 
 ![image](https://user-images.githubusercontent.com/115979342/203994731-2f9ed1ba-103f-4522-9b1e-edda7c694aca.png)
