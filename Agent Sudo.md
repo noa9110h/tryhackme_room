@@ -25,8 +25,7 @@ How you redirect yourself to a secret page?
 user-agent
 ```
 
-![image-20221127152826263](E:\Typera_images\image-20221127152826263.png)
-
+![image-20221127152826263](https://user-images.githubusercontent.com/115979342/204274189-41ca161b-fe7b-4494-bdca-5f36dc76ddfd.png)
 What is the agent name?
 
 ```
@@ -39,7 +38,7 @@ chris
 
 FTP password
 
-![image-20221127152929563](E:\Typera_images\image-20221127152929563.png)
+<img width="912" alt="image-20221127152929563" src="https://user-images.githubusercontent.com/115979342/204274238-80c704aa-4ff9-493e-b5a7-b6d74ca6f87f.png">
 
 ```
 *
@@ -47,7 +46,7 @@ FTP password
 
 use ftp login to get file
 
-![image-20221127152956848](E:\Typera_images\image-20221127152956848.png)
+![image-20221127152956848](https://user-images.githubusercontent.com/115979342/204274268-4dfc6d95-3499-4f2d-a031-d4d03ed1f228.png)
 
 ```bash
 mget *
@@ -67,7 +66,8 @@ Agent C
 
 use binwalk
 
-![image-20221127153116310](E:\Typera_images\image-20221127153116310.png)
+![image-20221127153116310](https://user-images.githubusercontent.com/115979342/204274540-25e1e0ab-7db0-4922-bc66-03b3eeee9339.png)
+
 
 ```
 binwalk cutie.png -e
@@ -75,13 +75,14 @@ binwalk cutie.png -e
 
 get the zip file and use zip2john crack the zip pasword:
 
+![image-20221127153312804](https://user-images.githubusercontent.com/115979342/204274647-039a3996-e848-4974-abab-5e1576008a04.png)
+
 ```bash
 zip2john 8702.zip > zip.hash
 john zip.hash
 
 ```
 
-![image-20221127153312804](E:\Typera_images\image-20221127153312804.png)
 
 Zip file password
 
@@ -95,7 +96,6 @@ txt file has the encrypted string "QXJlYTUx"
 
 use magic in [CyberChef](https://gchq.github.io/CyberChef/)
 
-![image-20221127153925077](E:\Typera_images\image-20221127153925077.png)
 
 ```
 *
@@ -107,7 +107,6 @@ Who is the other agent (in full name)?
 steghide extract -sf cute-alien.jpg 
 ```
 
-![image-20221127155238827](E:\Typera_images\image-20221127155238827.png)
 
 ```bash
 root@aoiri:~/tryhackme/agentsudo/tmp# cat message.txt 
@@ -163,11 +162,10 @@ CVE number for the escalation  (Format: CVE-xxxx-xxxx)
 
 use `sudo -l`
 
-![image-20221128111736314](E:/Typera_images/image-20221128111736314.png)
 
 use bash shell in gtfbins they are not working.
 
-![image-20221128111812736](E:/Typera_images/image-20221128111812736.png)
+![image-20221128111812736](https://user-images.githubusercontent.com/115979342/204274988-fa21482a-7f1a-4c82-bc8c-9af4d6cb6fb8.png)
 
 search on google about exploit
 
