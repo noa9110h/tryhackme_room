@@ -25,7 +25,8 @@ How you redirect yourself to a secret page?
 user-agent
 ```
 
-![image-20221127152826263](E:\Typera_images\image-20221127152826263.png)
+![image-20221127152826263](https://user-images.githubusercontent.com/115979342/204271810-8f0f1119-68c4-41c0-95d4-79c83ca5e169.png)
+
 
 What is the agent name?
 
@@ -39,7 +40,7 @@ chris
 
 FTP password
 
-![image-20221127152929563](E:\Typera_images\image-20221127152929563.png)
+<img width="912" alt="image-20221127152929563" src="https://user-images.githubusercontent.com/115979342/204272024-61acf8e8-2b2a-4b85-ab59-33d037bdbc44.png">
 
 ```
 *
@@ -47,7 +48,10 @@ FTP password
 
 use ftp login to get file
 
-![image-20221127152956848](E:\Typera_images\image-20221127152956848.png)
+
+
+![image-20221127152956848](https://user-images.githubusercontent.com/115979342/204272159-f0423d82-e7c0-441c-ac07-de4ca07ba186.png)
+
 
 ```bash
 mget *
@@ -67,7 +71,7 @@ Agent C
 
 use binwalk
 
-![image-20221127153116310](E:\Typera_images\image-20221127153116310.png)
+![image-20221127153116310](https://user-images.githubusercontent.com/115979342/204272329-19e40367-79c7-487a-b42f-d47c8f430b7b.png)
 
 ```
 binwalk cutie.png -e
@@ -81,7 +85,7 @@ john zip.hash
 
 ```
 
-![image-20221127153312804](E:\Typera_images\image-20221127153312804.png)
+![image-20221127153312804](https://user-images.githubusercontent.com/115979342/204272655-bf40f4ba-f49b-4699-9d90-3b351db44598.png)
 
 Zip file password
 
@@ -95,7 +99,7 @@ txt file has the encrypted string "QXJlYTUx"
 
 use magic in [CyberChef](https://gchq.github.io/CyberChef/)
 
-![image-20221127153925077](E:\Typera_images\image-20221127153925077.png)
+![image-20221127153925077](https://user-images.githubusercontent.com/115979342/204272784-664dbc30-5233-437a-b0c4-6b7a0b99f6f4.png)
 
 ```
 *
@@ -107,7 +111,7 @@ Who is the other agent (in full name)?
 steghide extract -sf cute-alien.jpg 
 ```
 
-![image-20221127155238827](E:\Typera_images\image-20221127155238827.png)
+![image-20221127155238827](https://user-images.githubusercontent.com/115979342/204272915-78b597d0-de7c-4163-8bb0-534cfadc5060.png)
 
 ```bash
 root@aoiri:~/tryhackme/agentsudo/tmp# cat message.txt 
@@ -163,11 +167,11 @@ CVE number for the escalation  (Format: CVE-xxxx-xxxx)
 
 use `sudo -l`
 
-![image-20221128111736314](E:/Typera_images/image-20221128111736314.png)
+![image-20221128111736314](https://user-images.githubusercontent.com/115979342/204273027-50810959-1e0b-434d-9720-7ef5428b7efb.png)
 
 use bash shell in gtfbins they are not working.
 
-![image-20221128111812736](E:/Typera_images/image-20221128111812736.png)
+![image-20221128111812736](https://user-images.githubusercontent.com/115979342/204273141-18004205-0b89-40b6-80e2-7fa5cd1ce89c.png)
 
 search on google about exploit
 
