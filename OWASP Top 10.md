@@ -45,7 +45,8 @@ tasklist
 netstat -an
 ```
 
-![](E:\Typera_images\KcGizdo.png)
+
+![KcGizdo](https://user-images.githubusercontent.com/115979342/215329340-532eadac-f324-4a94-8e52-f98abeab54b5.png)
 
 
 
@@ -63,7 +64,7 @@ First use the command `ls -al` to list the contents of the current directory
 
 ANSWER:drpepper.txt
 
-一个有用的 PHP 反向 shell:
+useful shell:
 
 https://highon.coffee/blog/reverse-shell-cheat-sheet/
 
@@ -108,7 +109,8 @@ ANSWER:www-data
 
 [Understanding /etc/passwd File Format](https://www.cyberciti.biz/faq/understanding-etcpasswd-file-format/)
 
-![img](E:/Typera_images/passwd-file-791527.png)
+![passwd-file-791527](https://user-images.githubusercontent.com/115979342/215329419-7307a266-0f8c-4d8d-8b8b-83863f0c659e.png)
+
 
 7.`Command/shell`: The absolute path of a command or shell (/bin/bash). Typically, this is a shell. Please note that it does not have to be a shell. For example, sysadmin can use the nologin shell, which acts as a replacement shell for the user accounts. If shell set to /sbin/nologin and the user tries to log in to the Linux system directly, the /sbin/nologin shell closes the connection.
 
@@ -190,21 +192,23 @@ The most common (and simplest) format of flat-file database is an *sqlite* datab
 
 Let's suppose we have successfully managed to download a database:
 
-![img](E:\Typera_images\tmRhcRE.png)
+![tmRhcRE](https://user-images.githubusercontent.com/115979342/215329494-566778db-9fd3-46b1-9375-e3053c921d51.png)
 
 We can see that there is an SQlite database in the current folder.
 
 To access it we use: `sqlite3 `:
 
-![img](E:\Typera_images\KJHAdI3.png)
+![KJHAdI3](https://user-images.githubusercontent.com/115979342/215329509-c5478e24-f053-4ab6-ba9e-68b60db2781a.png)
 
 From here we can see the tables in the database by using the `.tables` command:
 
-![img](E:\Typera_images\kyIWl1q.png)
+![kyIWl1q](https://user-images.githubusercontent.com/115979342/215329522-60d79124-a7fd-4ec5-8842-3f4d0639881c.png)
+
 
 At this point we can dump all of the data from the table, but we won't necessarily know what each column means unless we look at the table information. First let's use `PRAGMA table_info(customers);` to see the table information, then we'll use `SELECT * FROM customers;` to dump the information from the table:
 
-![img](E:\Typera_images\wVvHk7a.png)
+![wVvHk7a](https://user-images.githubusercontent.com/115979342/215329571-a4859442-f362-4b76-8180-5dc24c444e51.png)
+
 
 ### Task 10 [Severity 3] Sensitive Data Exposure (Supporting Material 2)
 
@@ -241,7 +245,8 @@ ANSWER: /assets
 
 ##### Navigate to the directory you found in question one. What file stands out as being likely to contain sensitive data?
 
-![image-20230105224045816](E:\Typera_images\image-20230105224045816.png)
+![image-20230105224045816](https://user-images.githubusercontent.com/115979342/215329596-3e21c665-a4d8-4407-b66f-a00a2518e4d2.png)
+
 
 ANSWER: webapp.db 
 
@@ -658,7 +663,8 @@ ANSWER: https
 
 ### Task 25 [Severity 8] Insecure Deserialization - Cookies Practical
 
-![img](E:/Typera_images/1LMFfV0.png)
+![1LMFfV0](https://user-images.githubusercontent.com/115979342/215329637-e890dec2-0b23-496f-bbe5-aafbdfd2a87d.png)
+
 
 create an account first
 
