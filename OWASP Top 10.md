@@ -624,7 +624,8 @@ Alternatively, deserialisation is the reverse of this; converting serialised inf
 Say you have a password of "password123" from a program that needs to be stored in a database on another system. To travel across a network this string/output needs to be converted to binary. Of course, the password needs to be stored as "password123" and not its binary notation. Once this reaches the database, it is converted or deserialised back into "password123" so it can be stored.
 *The process is best explained through diagrams:*
 
-![img](E:/Typera_images/ZB76mLI.png)
+![ZB76mLI](https://user-images.githubusercontent.com/115979342/215330159-f0f15e05-9e54-4ae7-ba18-012bce59b7ee.png)
+
 
 **How can we leverage this?**
 Simply, insecure deserialization occurs when data from an untrusted party (I.e. a hacker) gets executed because there is no filtering or input validation; the system assumes that the data is trustworthy and will execute it no holds barred.
@@ -649,7 +650,8 @@ Cookies can be set in various website programming languages. For example, Javasc
 
 *Take the snippet below:*
 
-![img](E:/Typera_images/9WOYwbF.png)
+![9WOYwbF](https://user-images.githubusercontent.com/115979342/215330177-af6967c3-2567-4ebb-8910-8390a502f258.png)
+
 
 ##### If a cookie had the path of *webapp.com/login* , what would the URL that the user has to visit be?
 
